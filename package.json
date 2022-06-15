@@ -1,0 +1,31 @@
+{
+  "name": "commit",
+  "version": "1.0.0",
+  "description": "<!--  * @Author: 李炳鑫 libx@hsit.com.cn  * @Date: 2022-06-15 18:54:16  * @LastEditors: 李炳鑫 libx@hsit.com.cn  * @LastEditTime: 2022-06-15 18:54:24  * @FilePath: \\commit\\README.md  * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE --> 简介",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.2",
+    "@commitlint/config-conventional": "^17.0.2",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "scripts": {
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ILPP/commit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ILPP/commit/issues"
+  },
+  "homepage": "https://github.com/ILPP/commit#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
